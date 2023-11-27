@@ -1,0 +1,276 @@
+#head{
+    margin-top: 60px;
+    font-size: larger;
+    background-color: rgb(11, 11, 52,0.88);
+    width: 100%;
+    margin-right: -30px;
+    margin-left: -50px;
+    padding: 18px;
+    height: 60%;
+}
+
+    
+     body{
+      font-family:Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+     }
+   
+
+#logo{
+   padding:65px;
+   margin-left: -69px;
+   margin-top: -20px;
+}
+
+.Head{
+   display:flex;
+   justify-content: space-around;
+}
+
+.head{
+   margin-right: 12px;
+   text-align: center;
+}
+
+a{
+   text-decoration: none;
+   color: #fff;
+}
+
+#home{
+    background-color:rgb(239, 211, 179);
+    border-bottom: 5px solid gainsboro;
+    padding: 5px;
+}
+
+#head-image{
+    background-image: url('/Images/GettyImages-2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 300px;
+   
+}
+
+#news{
+   background-color:burlywood;
+   padding: 30px;
+   width:450px;
+   color: #fff;
+   border-top: 20px;
+}
+
+#new{
+   font-size: 40px;
+}
+
+#ned{
+   font-size: 25px;
+}
+
+.news{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    
+ }
+
+
+ .first-image {
+    display: flex;
+    margin-top:55px;
+    gap: 60px;
+}
+
+.image-circle img {
+   
+    border-radius: 50%;
+  
+    width: 80%; 
+    height: 90%;
+    margin-left: 100px;
+}
+
+
+
+#image-text {
+    margin-top: 5px; 
+    font-style: italic;
+    margin-left: 100px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text{
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+
+
+.container {
+    display: flex;
+    gap: 5px; 
+    margin-top: 150px;
+    max-width: 100%;
+}
+
+.content {
+    display: flex;
+   width: 100%;
+   gap:10px;
+}
+
+.img-container img {
+    width: 70%; 
+    height: auto; 
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+.text-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    width: 300%;
+    margin-top: -20px;
+}
+
+
+.texts{
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+
+.container1 {
+    display: flex;
+    gap: 5px; 
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+.img-container1 img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+.text1-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    width: 300%;
+    margin-top: -20px;
+}
+
+
+
+.img-container2 img {
+    width: 155%; 
+    height: auto; 
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+.text2-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 180px;
+    width: 300%;
+    margin-top: -20px;
+}
+
+.img-container3 img {
+    width: 125%; 
+    height: auto; 
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+.text3-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 140px;
+    width: 300%;
+    margin-top: -20px;
+}
+
+
+.std {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-left:70px;
+    width: 90%;
+   
+}
+
+.std-0 {
+    background-color: #fff; 
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.std-0 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; 
+}
+
+.voice{
+    margin-left: 180px;
+    
+    border-top: 1px solid black;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.voices{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.std-1 {
+    background-color: #fff; 
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+}
+
+.std-1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; 
+    
+}
+
+
+.std-2 {
+    background-color: #fff; 
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
+    border-radius: 5px;
+    padding: 10px;
+    width: 45%;
+}
+
+.std-2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; 
+   
+}
+
+
