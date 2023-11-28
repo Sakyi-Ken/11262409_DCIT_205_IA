@@ -32,6 +32,13 @@ header {
     font-size:larger;
 }
 
+a:hover{
+    background-color:rgb(170, 137, 95) ;
+    transition: background-color 0.3s, color 0.3s; 
+    padding: 5px;
+    border-radius: 10px;
+ }
+
 section {
     padding: 20px;
     margin: 20px 0;
@@ -73,80 +80,13 @@ footer {
     background-color: transparent;
 }
 
-
-
-*{
-    box-sizing: border-box;
-}
-
-.flex-container{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-}
-.home{
-    background-color: none;
-    flex: 50%
-}
-.about{
-    background-color: none;
-    flex: 50%;
-}
-.course{
-    background-color: none;
-    flex: 50%;
-}
-.faculty{
-    background-color: none;
-    flex: 50%;
-}
-.contact{
-    background-color: none;
-    flex: 50%;
-}
-.catalog{
-    background-color: none;
-    flex: 50%;
-}
-.resource{
-    background-color: none;
-    flex: 50%;
-}
-.news{
-    background-color: none;
-    flex: 50%;
-}
-.research{
-    background-color: none;
-    flex: 50%;
-}
-.alumni{
-    background-color: none;
-    flex: 100%;
-}
-.tab2:hover{
-    color: #000;
-    text-decoration:underline;
-    background-color:bisque;
-    border-bottom: 10px;
-    
-}
-
-
-.myimage{
-    background-image:url('/Images/about-img2.jpeg');
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    background-size:cover;
-}
 .background-image{
     background-image:url('/Images/coursedetail.jpeg');
     background-size: cover;
     background-position: center;
     width: 95%;
     height:600px;
-   margin: auto
-    ;
+   margin: auto;
     }
 
     .P1{
@@ -189,8 +129,6 @@ footer {
     margin-bottom: 100%;
    
 }
-
-/* Styling for the date and event/news details */
 
 .news-details {
     margin-top: -5px;
@@ -255,74 +193,6 @@ footer {
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         margin-top:50px;
         
-    }
-
-
-
-    .std {
-        display: flex;
-        justify-content: space-around;
-        gap: 30px;
-        margin-left:70px;
-        width: 90%;
-       
-    }
-    
-    .std-0 {
-        background-color: #fff; 
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
-        border-radius: 5px;
-        padding: 10px;
-    }
-    
-    .std-0 img {
-        width: 100%;
-        height: auto;
-        border-radius: 5px; 
-    }
-    
-    .voice{
-        margin-left: 180px;
-        
-        border-top: 1px solid black;
-        margin-top: 150px;
-        margin-bottom: 40px;
-    }
-    
-    .voices{
-        font-size: 30px;
-        font-weight: bolder;
-    }
-    
-    .std-1 {
-        background-color: #fff; 
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
-        border-radius: 5px;
-        padding: 10px;
-        width: 50%;
-    }
-    
-    .std-1 img {
-        width: 100%;
-        height: auto;
-        border-radius: 5px; 
-        
-    }
-    
-    
-    .std-2 {
-        background-color: #fff; 
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
-        border-radius: 5px;
-        padding: 10px;
-        width: 45%;
-    }
-    
-    .std-2 img {
-        width: 100%;
-        height: auto;
-        border-radius: 5px; 
-       
     }
 
     #footer{
@@ -408,10 +278,251 @@ footer {
      transition: background-color 0.3s, color 0.3s; 
      margin-left: 1000px;
      }
+
+     .front {
+        background-color: rgb(27, 27, 81,0.95);
+        color: #fff; 
+        padding: 10px 20px; 
+        border: none;
+        border-radius: 5px; 
+        cursor: pointer; 
+        text-decoration: none; 
+        display: inline-block; 
+        transition: background-color 0.3s, color 0.3s; 
+        margin-left: 10px;
+        }
      
      
-     .back-to-top:hover {
+     .front:hover {
      background-color:rgb(243, 203, 153,0.75);
        
      }
      
+
+     #head{
+        margin-top: 60px;
+        font-size: larger;
+        background-color:rgb(170, 137, 95);
+        width: 100%;
+        margin-right: -30px;
+        margin-left: -50px;
+        padding: 10px;
+        height: 60%;
+    }
+    
+    #logo{
+        padding:51px;
+        margin-left: -69px;
+        margin-top: -20px;
+     }
+     
+     .Head{
+        display:flex;
+        justify-content: space-around;
+     }
+     
+     .head{
+        margin-right: 12px;
+        text-align: center;
+     }
+     
+     a{
+        text-decoration: none;
+        color: #fff;
+     }
+     a:hover{
+        background-color:#312f56 ;
+        transition: background-color 0.3s, color 0.3s; 
+        padding: 5px;
+        border-radius: 10px;
+     }
+
+
+        
+        #cat{
+            font-weight: bold;
+            border-bottom: 1px solid black;
+            padding: 10px;
+            font-size: larger;
+        }
+        
+        .cat-1{
+            width: 10px;
+            padding: 2px;
+           
+        }
+        
+        .cat{
+            padding: 30px;
+            background-color: #fff;
+            width: 360px; 
+            margin-left: 1150px;
+            margin-top: -300px;
+        
+           
+        
+        }
+
+        #bg-image{
+            background-image: url('/Images/under_grad_main.jpg');
+            background-size: cover;
+            background-position: center;
+            width: 80%;
+            height: 500px;   
+            margin-top: 50px;
+            margin-left: 80px;
+        }
+        .span{
+            color: rgb(243, 203, 153,1);
+            padding: 5px;
+        }
+       
+        .text{
+            background-color: rgb(47, 45, 81,0.6);
+            color: #fff;
+            padding: 10px;
+            font-size: 45px;
+            text-align: center;
+            width: 550px;
+            margin:auto;
+            font-weight: bold;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+
+        .first-image {
+            display: flex;
+            margin-top:35px;
+            gap: 280px;
+        }
+        
+        .image-circle img {
+           
+            border-radius: 50%;
+          
+            width: 55%; 
+            height: 90%;
+            margin-left: 100px;
+        }
+    
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -280px;
+        }
+        
+        .compssa{
+            font-size: 20px;
+            margin-left: 50px;
+            font-weight: bold;
+        }
+
+        .Aca {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            margin-left:70px;
+            width: 90%;
+           
+        }
+
+        .Aca-2 {
+            background-color: #fff; 
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
+            border-radius: 5px;
+            padding: 10px;
+            width: 45%;
+        }
+        
+        .Aca-2 img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px; 
+           
+        }
+
+        h2{
+            margin-left: 80px;
+            color: #1e1b54;
+            margin-bottom: 5px;
+            margin-top: 80px;
+        }
+
+        
+        
+
+        .home{
+            color: #1e1b54;
+            text-align: center;
+            padding: 10px;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .std {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            margin-left:70px;
+            width: 90%;
+           
+        }
+        
+        .std-0 {
+            background-color: #fff; 
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
+            border-radius: 5px;
+            padding: 10px;
+        }
+        
+        .std-0 img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px; 
+        }
+        
+        .voice{
+            margin-left: 180px;
+            
+            border-top: 1px solid black;
+            margin-top: 150px;
+            margin-bottom: 40px;
+        }
+        
+        .voices{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        
+        .std-1 {
+            background-color: #fff; 
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
+            border-radius: 5px;
+            padding: 10px;
+            width: 50%;
+        }
+        
+        .std-1 img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px; 
+            
+        }
+        
+        
+        .std-2 {
+            background-color: #fff; 
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
+            border-radius: 5px;
+            padding: 10px;
+            width: 45%;
+        }
+        
+        .std-2 img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px; 
+           
+        }
