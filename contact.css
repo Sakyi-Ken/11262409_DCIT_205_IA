@@ -42,6 +42,14 @@ a{
    text-decoration: none;
    color: #fff;
 }
+
+a:hover{
+    background-color:rgb(170, 137, 95) ;
+    transition: background-color 0.3s, color 0.3s; 
+    padding: 5px;
+    border-radius: 10px;
+ }
+
 #home{
     background-color:#7696bb;
     border-bottom: 5px solid gainsboro;
@@ -226,3 +234,22 @@ background-color:rgb(243, 203, 153,0.75);
 
     
 }
+
+.front {
+    background-color: rgb(27, 27, 81,0.95);
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    display: inline-block; 
+    transition: background-color 0.3s, color 0.3s; 
+    margin-left: 10px;
+    }
+ 
+ 
+ .front:hover {
+ background-color:rgb(243, 203, 153,0.75);
+   
+ }
