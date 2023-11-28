@@ -20,19 +20,66 @@ Place the project files in the root directory of the web server.
 Access the website through a web browser using the local server's address.
 
 ## Screenshots
-### Homepage
-![Home Page](Readme-images\Home.png)
+
+### Welcomepage
+![Welcome Page](/Readme-images/Welcome.png)
 
 
-### Academicspage
+### Home page
+
+![Home Page](/Readme-images/Home-1.png)
+![Home Page](/Readme-images/Home-2.png)
+![Home Page](/Readme-images/Home-3.png)
+![Home Page](/Readme-images/Home-4.png)
+
+
+### Academics page
 ![Academics Page](/Readme-images/Academics.png)
+![Academics Page](/Readme-images/Faculty-1.png)
 
 
-### Peoplepage
-![People Page](/Readme-images/People.png)
 
-### Facultypage
+### People page
+
+![People Page](/Readme-images/People-1.png)
+![People Page](/Readme-images/People-2.png)
+![People Page](/Readme-images/People-3.png)
+
+
+### Faculty page
 ![Faculty Page](/Readme-images/Faculty.png)
+![Faculty Page](/Readme-images/Faculty-1.png)
+
+
+### Catalog page
+![Catalog Page](/Readme-images/Catalog.png)
+![Catalog Page](/Readme-images/Cat-1.png)
+![Catalog Page](/Readme-images/Cat-2.png)
+![Catalog Page](/Readme-images/Cat-3.png)
+
+
+### Resources page
+![Rescources Page](/Readme-images/Resources.png)
+
+
+### News & Events page
+
+![News & Events Page](/Readme-images/News-1.png)
+![News & Events Page](/Readme-images/New-2.png)
+![News & Events Page](/Readme-images/New-3.png)
+
+
+### Contact page
+![Contact Page](/Readme-images/Contact.png)
+
+
+## Lesson Learnt
+Throughout this project, I gained valuable experience in:
+
+Designing and implementing responsive web layouts using HTML and CSS.
+
+Working with images, text, and interactive elements to enhance user experience.
+
 
 
 ## Author
